@@ -8,11 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,MyDataSendToFirstVC {
+    
 
+    @IBOutlet weak var receivedDataLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    func sendDataToFirstVC(data: String) {
+        receivedDataLabel.text = data
+    }
+
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if  segue.identifier == "getdata" {
+            var secondScreen = segue.destination as! SecondVC
+            secondScreen.delegate = self
+        }
     }
 
 

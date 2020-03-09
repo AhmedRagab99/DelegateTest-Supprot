@@ -12,6 +12,7 @@
 		D0726D94241697B100A4052F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0726D92241697B100A4052F /* Main.storyboard */; };
 		D0726D96241697B100A4052F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0726D95241697B100A4052F /* Assets.xcassets */; };
 		D0726D99241697B100A4052F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0726D97241697B100A4052F /* LaunchScreen.storyboard */; };
+		D0726DA124169AEE00A4052F /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0726DA024169AEE00A4052F /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D0726D95241697B100A4052F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0726D98241697B100A4052F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0726D9A241697B100A4052F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0726DA024169AEE00A4052F /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				D0726D8E241697B100A4052F /* AppDelegate.swift */,
-				D0726D90241697B100A4052F /* ViewController.swift */,
 				D0726D92241697B100A4052F /* Main.storyboard */,
+				D0726D90241697B100A4052F /* ViewController.swift */,
 				D0726D95241697B100A4052F /* Assets.xcassets */,
 				D0726D97241697B100A4052F /* LaunchScreen.storyboard */,
 				D0726D9A241697B100A4052F /* Info.plist */,
+				D0726DA024169AEE00A4052F /* SecondVC.swift */,
 			);
 			path = passdata;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0726D91241697B100A4052F /* ViewController.swift in Sources */,
+				D0726DA124169AEE00A4052F /* SecondVC.swift in Sources */,
 				D0726D8F241697B100A4052F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
